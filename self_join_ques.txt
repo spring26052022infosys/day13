@@ -1,0 +1,22 @@
+** self join
+
+a table is joined with itself
+the cross product is performed and nXn result set is generated. Then the final result is generated based on inner join condition
+
+as a table is joined with itself each column in select query should be prefixed with appropriate alias name 
+
+** create table STUDENT as follows
+STUDENT ->  sid integer primary key,sname varchar 10,crid integer ( class representative should be one of sid or null)
+
+
+** insert data into tables as follows
+STUDENT		
+sid	sname	Crid
+101	James	102
+102	Priti	null
+103	Harsha	102
+
+** write query to get the student roll number and name along with class representative id and representative name
+ 
+
+
